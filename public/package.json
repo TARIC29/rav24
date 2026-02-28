@@ -1,0 +1,11 @@
+{
+  "name": "rav24-login-node",
+  "version": "1.0.0",
+  "description": "Serveur Node pour page de connexion statique et validation administrateur",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check public/app.js"
+  },
+  "license": "MIT"
+}
